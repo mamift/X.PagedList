@@ -6,10 +6,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\X.PagedList.EF\X.PagedList.EF.csproj"/>
-        <ProjectReference Include="..\..\src\X.PagedList\X.PagedList.csproj"/>
-        <ProjectReference Include="..\..\src\X.PagedList.Mvc.Core\X.PagedList.Mvc.Core.csproj"/>
-        <ProjectReference Include="..\Example.DAL\Example.DAL.csproj"/>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.14" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\src\X.PagedList.EF\X.PagedList.EF.csproj" />
+        <ProjectReference Include="..\..\src\X.PagedList\X.PagedList.csproj" />
+        <ProjectReference Include="..\..\src\X.PagedList.Mvc.Core\X.PagedList.Mvc.Core.csproj" />
+        <ProjectReference Include="..\Example.DAL\Example.DAL.csproj" />
     </ItemGroup>
 
 <!--    For live packages -->
