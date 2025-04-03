@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +18,7 @@ namespace X.PagedList;
 /// <seealso cref="BasePagedList{T}"/>
 /// <seealso cref="PagedList{T}"/>
 /// <seealso cref="List{T}"/>
-[PublicAPI]
+
 public class StaticPagedList<T> : BasePagedList<T>
 {
     /// <summary>
@@ -59,7 +59,7 @@ public class StaticPagedList<T> : BasePagedList<T>
     /// </summary>
     /// <param name="pageSize"></param>
     /// <returns></returns>
-    [PublicAPI]
+    
     public static StaticPagedList<T> Empty(int pageSize = DefaultPageSize) =>
         new(Array.Empty<T>(), 1, pageSize, 0);
 }

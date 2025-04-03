@@ -1,10 +1,10 @@
 ﻿using System;
-using JetBrains.Annotations;
+
 using Microsoft.AspNetCore.Html;
 
 namespace X.PagedList.Mvc.Core.Fluent;
 
-[PublicAPI]
+
 public interface IHtmlPagerBuilder
 {
     IHtmlPagerBuilder Url(Func<int, string?> builder);

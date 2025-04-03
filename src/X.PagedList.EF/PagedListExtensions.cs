@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using JetBrains.Annotations;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace X.PagedList.EF;
@@ -11,7 +11,7 @@ namespace X.PagedList.EF;
 /// <summary>
 /// EntityFramework extension methods designed to simplify the creation of instances of <see cref="PagedList{T}"/>.
 /// </summary>
-[PublicAPI]
+
 public static class PagedListExtensions
 {
     /// <summary>

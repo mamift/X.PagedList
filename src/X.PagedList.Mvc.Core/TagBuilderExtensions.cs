@@ -1,12 +1,12 @@
 ﻿using System.IO;
 using System.Text.Encodings.Web;
-using JetBrains.Annotations;
+
 using Microsoft.AspNetCore.Html;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace X.PagedList.Mvc.Core;
 
-[PublicAPI]
+
 public static class TagBuilderExtensions
 {
     public static void AddCssClass(this TagBuilder tagBuilder, string value)
